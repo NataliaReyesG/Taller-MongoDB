@@ -1,0 +1,13 @@
+//filtrar por nombre//
+db.pokeData.find({id:"147"},{"name":1,"_id":0})
+db.pokeData.find({id:"143"},{"name":1,"_id":0})
+db.pokeData.find({id:"004"},{"name":1,"_id":0})
+db.pokeData.find({id:"129"},{"name":1,"_id":0})
+
+//filtrar por id//
+db.pokeData.find({id: {$eq:"035"}}, {_id:1})
+db.pokeData.find({id: {$eq:"123"}}, {_id:1})
+db.pokeData.find({id: {$eq:"151"}}, {_id:1})
+db.pokeData.find({id: {$eq:"025"}}, {_id:1})
+
+
